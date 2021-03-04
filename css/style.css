@@ -1,0 +1,123 @@
+/* - - - Body - - - */
+
+body{
+    width: 100%;
+    margin: auto;
+    /* padding: 0 10%; */
+    
+}
+img {
+    width: 100%;
+    height: auto;
+  } 
+
+a{
+    color:  whitesmoke;
+}
+a:hover{
+    color:  orange;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.padding-body{
+    padding: 0 10%;
+}
+
+.icon-color{
+    color: orange;
+}
+
+/* - - -  Navigation - - - */
+
+#navigation{
+    color:  whitesmoke;
+    font-size: 1.5rem;
+    
+}
+.navigation-height{
+    height: 10vh;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color: whitesmoke;
+}
+.navbar-toggler-icon:hover{
+    color: orange;
+}
+
+
+/* - - - Header  - - - */
+
+#header{
+    background-color: orange;
+    color: white;
+    padding: 3% 5%;
+}
+
+.headerimg{
+    width: 60%;
+    max-width: 30vw;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+
+/* - - - Skills  - - - */
+
+#skills{
+      /* text-align: center; */
+    padding: 3% 5%;
+}
+
+.skills-fontsize{
+    font-size: 1.5rem;
+}
+
+li::marker{
+    color: orange;
+}
+/* - - - Projects  - - - */
+
+#projects{
+    background-color:lightslategrey;
+    color: whitesmoke;  
+    width: 100%; 
+    padding: 3% 5%;
+}
+
+/* - - - Random  - - - */
+
+#random{
+      
+    padding: 3% 5%;
+}
+
+.cardimg{
+    /* width: auto;
+    height: auto; */
+    max-height: 10vh;
+    
+}
+
+/* - - - Contact   - - - */
+
+#contact{
+    background-color: lightslategrey;
+    color: whitesmoke; 
+    padding: 3% 5%;
+}
+
+/* - - - Footer   - - - */
+
+#footer{
+    background-color: orange;
+    padding: 1% 5%;
+}
