@@ -100,12 +100,40 @@ li::marker{
     padding: 3% 5%;
 }
 
-.cardimg{
-    /* width: auto;
-    height: auto; */
-    max-height: 10vh;
+.card{
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 400px ) {
+    .card{
+        height:30vh;
+    }   
     
 }
+@media screen and (min-width: 992px ) {
+    .card{
+        height:36vh;
+    }   
+    
+}
+@media screen and (min-width: 1400px ) {
+    .card{
+        height:30vh;
+    }   
+    
+}
+@media screen and (min-width: 1500px ) {
+    .card{
+        height:25vh;
+    }   
+    
+}
+.cardimg{
+    width: auto;    
+    max-height: 5vh;
+    /* margin: 1% 2% 0 2%; */
+    
+}
+
 
 /* - - - Contact   - - - */
 
