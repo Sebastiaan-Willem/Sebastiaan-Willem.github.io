@@ -107,7 +107,10 @@
       
       <div class="row padding-body">
         <h1>Projects</h1>
-        <div class="accordion" id="accordionExample">
+
+        <!-- accordion-->
+
+        <div class="accordion" id="">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -117,44 +120,61 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <p>Our first real group application. An implementation of basic CRUD functionality in a C# console project. Our group decided to make an application that manages the animals in a Zoo </p>
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <!--item 1-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project1_screenshot1.PNG" alt="Screenshot1">
-                              
-                            </div>
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project1img1">
+                      <img src="images/project1_screenshot1.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot1"/>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="project1img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project1_screenshot1.PNG" class="img-full-size" alt="screenshot1"/>
                           </div>
-                          <div class="carousel-item">
-                            <!--item 2-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project1_screenshot2.PNG" alt="Screenshot2">
-                              
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <!--item 3-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project1_screenshot3.PNG" alt="Screenshot3">
-                              
-                            </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>                      
-                  </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project1img2">
+                      <img src="images/project1_screenshot2.PNG" class="img-thumbnail  img-thumb-size  " alt="screenshot2"/>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="project1img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">
+                            <img src="images/project1_screenshot2.PNG" class="img-full-size" alt="screenshot1"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                           <!-- Button trigger modal -->
+                           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project1img3">
+                            <img src="images/project1_screenshot3.PNG" class="img-thumbnail  img-thumb-size  float-end" alt="screenshot3"/>
+                          </button>
+      
+                          <!-- Modal -->
+                          <div class="modal fade" id="project1img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                              <div class="modal-content">                                
+                                <div class="modal-body">
+                                  <img src="images/project1_screenshot3.PNG" class="img-full-size" alt="screenshot1"/>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                                </div>
+                              </div>
+                            </div>
+                          </div>                  
                 </div>
               </div>
             </div>
@@ -166,53 +186,80 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <p>Our first real application with a GUI. We built a coffee shop with Windows Forms & C# where we could select products from a tile-like list and add them to a shoppingcart. </p>
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <!--item 1-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project2_screenshot1.PNG" alt="Screenshot1">
-                              
-                            </div>
+                    <p>
+                      Our first real application with a GUI. We built a coffee shop with Windows Forms & C# where we could select products from a tile-like list and add them to a shoppingcart. 
+                    </p>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project2img1">
+                      <img src="images/project2_screenshot1.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot1"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project2img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project2_screenshot1.PNG" class="img-full-size" alt="screenshot1"/>
                           </div>
-                          <div class="carousel-item">
-                            <!--item 2-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project2_screenshot2.PNG" alt="Screenshot2">
-                              
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <!--item 3-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project2_screenshot3.PNG" alt="Screenshot3">
-                              
-                            </div>
-                          </div>
-                          <!--item 3-->
-                          <div class="container">
-                              
-                            <img class="" src="images/project2_screenshot4.PNG" alt="Screenshot3">
-                            
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
                           </div>
                         </div>
+                      </div>
+                    </div>
+                     
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project2img2">
+                      <img src="images/project2_screenshot2.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot2"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project2img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project2_screenshot2.PNG" class="img-full-size" alt="screenshot1"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button> 
-                      
-                  </div>
+                      </div>
+                    </div>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project2img3">
+                      <img src="images/project2_screenshot3.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot3"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project2img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project2_screenshot3.PNG" class="img-full-size" alt="screenshot3"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project2img4">
+                      <img src="images/project2_screenshot4.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot4"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project2img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project2_screenshot4.PNG" class="img-full-size" alt="screenshot4"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  
                 </div>
               </div>
             </div>
@@ -224,62 +271,95 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <p>A more advanced GUI based project. We used WPF to build our frontend and C# for the backend for our Game of Goose. We later decided to make the theme more fantasylike and changed the name to Game of Horse to better fit the new visuals. </p>
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <!--item 1-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project3_screenshot1.PNG" alt="Screenshot1">
-                              
-                            </div>
+                    <p>
+                      A more advanced GUI based project. We used WPF to build our frontend and C# for the backend for our Game of Goose. We later decided to make the theme more fantasylike and changed the name to Game of Horse to better fit the new visuals. 
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project3img1">
+                      <img src="images/project3_screenshot1.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot1"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project3img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project3_screenshot1.PNG" class="img-full-size" alt="screenshot1"/>
                           </div>
-                          <div class="carousel-item">
-                            <!--item 2-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project3_screenshot2.PNG" alt="Screenshot2">
-                              
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <!--item 3-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project3_screenshot3.PNG" alt="Screenshot3">
-                              
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <!--item 4-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project3_screenshot4.PNG" alt="Screenshot4">
-                              
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <!--item 5-->
-                            <div class="container">
-                              
-                              <img class="" src="images/project3_screenshot5.PNG" alt="Screenshot5">
-                              
-                            </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button> 
-                      
-                  </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project3img2">
+                      <img src="images/project3_screenshot2.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot2"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project3img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project3_screenshot2.PNG" class="img-full-size" alt="screenshot2"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project3img3">
+                      <img src="images/project3_screenshot3.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot3"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project3img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project3_screenshot3.PNG" class="img-full-size" alt="screenshot3"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project3img4">
+                      <img src="images/project3_screenshot4.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot4"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project3img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project3_screenshot4.PNG" class="img-full-size" alt="screenshot4"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary button-style" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project3img5">
+                      <img src="images/project3_screenshot5.PNG" class="img-thumbnail img-thumb-size float-start" alt="screenshot5"/>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="project3img5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">                          
+                          <div class="modal-body">                            
+                            <img src="images/project3_screenshot5.PNG" class="img-full-size" alt="screenshot5"/>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
                 </div>
               </div>
             </div>

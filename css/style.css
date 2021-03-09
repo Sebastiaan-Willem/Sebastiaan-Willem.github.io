@@ -6,10 +6,10 @@ body{
     /* padding: 0 10%; */
     
 }
-img {
+/* img {
     width: 100%;
     height: auto;
-  } 
+  }  */
 
 a{
     color:  whitesmoke;
@@ -29,6 +29,9 @@ a:hover{
 .icon-color{
     color: orange;
 }
+/* .button-style{
+    background-color: orange;
+} */
 
 /* - - -  Navigation - - - */
 
@@ -92,6 +95,24 @@ li::marker{
     width: 100%; 
     padding: 3% 5%;
 }
+
+.img-thumb-size{
+    width: 300px;
+    height: 200px;
+}
+.img-full-size{
+    display: block;
+  max-width: 100%;
+  height: auto;
+}
+.modal-body > .img-full-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-content {
+    background-color: lightslategray;
+ }
 
 /* - - - Random  - - - */
 
