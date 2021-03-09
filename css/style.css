@@ -3,6 +3,7 @@
 body{
     width: 100%;
     margin: auto;
+
     /* padding: 0 10%; */
     
 }
@@ -113,6 +114,20 @@ li::marker{
 .modal-content {
     background-color: lightslategray;
  }
+ .accordion-button{
+    color: whitesmoke;
+ }
+ .accordion-button:not(.collapsed) {
+    color: whitesmoke;
+    background-color: orange;
+    font-weight: bold;
+}
+.accordion-button:focus{
+    border-color: whitesmoke;
+    /* box-shadow: none; */
+    box-shadow: 0 0 0 0.15rem rgb(250 250 250 / 50%);
+    
+}
 
 /* - - - Random  - - - */
 
