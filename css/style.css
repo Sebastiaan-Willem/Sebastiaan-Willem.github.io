@@ -1,17 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap');
 /* - - - Body - - - */
 
 body{
     width: 100%;
     margin: auto;
-
+    font-family: 'Roboto', sans-serif;
     /* padding: 0 10%; */
     
 }
-/* img {
-    width: 100%;
-    height: auto;
-  }  */
-
 a{
     color:  whitesmoke;
 }
@@ -57,11 +53,27 @@ a:hover{
     color: orange;
 }
 
+a.dropdown-item{
+    color: whitesmoke;    
+    
+}
+.icon-padding{
+    margin-right: 5%;
+}
+a.dropdown-item:hover{
+    color: orange;
+    background-color: transparent;
+}
+
 
 /* - - - Header  - - - */
 
 #header{
-    background-color: orange;
+    /* background-color: orange; */
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: white;
     padding: 3% 5%;
 }
@@ -72,6 +84,11 @@ a:hover{
     border-radius: 5%;
     margin: 0 auto;
 }
+.intro-message
+{
+    font-family: 'Slabo 27px', serif;
+}
+
 
 
 /* - - - Skills  - - - */
@@ -88,6 +105,13 @@ a:hover{
 li::marker{
     color: orange;
 }
+
+.skills-title{
+    margin-bottom: 2%;
+}
+.skills-h3{
+    margin-bottom: 3%;
+}
 /* - - - Projects  - - - */
 
 #projects{
@@ -95,6 +119,11 @@ li::marker{
     color: whitesmoke;  
     width: 100%; 
     padding: 3% 5%;
+}
+
+.github-link-title{
+    font-size: 1.3rem;
+    padding-left: 4%;
 }
 
 .img-thumb-size{
@@ -119,7 +148,11 @@ li::marker{
  }
  .accordion-button:not(.collapsed) {
     color: whitesmoke;
-    background-color: orange;
+    /* background-color: orange; */
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-weight: bold;
 }
 .accordion-button:focus{
@@ -182,6 +215,10 @@ li::marker{
 /* - - - Footer   - - - */
 
 #footer{
-    background-color: orange;
+    /* background-color: orange; */
+    background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 1% 5%;
 }
